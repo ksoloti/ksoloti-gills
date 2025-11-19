@@ -35,7 +35,7 @@ tags
 *.ses
 
 # jlc
-jlcpcb/project.db
+**/jlcpcb/project.db
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
