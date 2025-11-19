@@ -8,6 +8,9 @@
 Schematics are [here](https://github.com/ksoloti/ksoloti-gills/blob/main/ksoloti-gills_v06.pdf)
 
 
+## This is just the Gills unit (and CV expander) and will not work without a Ksoloti Core plugged in.
+
+
 `Gerbers`, `BOM` and `CPL` files for the PCB are in the subfolder [/jlcpcb/production_files](https://github.com/ksoloti/ksoloti-gills/tree/main/jlcpcb/production_files)
 
 
