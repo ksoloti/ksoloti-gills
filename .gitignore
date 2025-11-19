@@ -24,6 +24,7 @@ fp-info-cache
 \#auto_saved_files#
 ksoloti-gills-backups
 ksoloti-gills_panel-backups
+ksoloti-gills-cv-expander-backups
 tags
 
 # Netlist files (exported from Eeschema)
@@ -41,4 +42,4 @@ jlcpcb/project.db
 
 # Local project settings
 *.kicad_prl
-ksoloti-gills.xml
+ksoloti-gills*.xml
