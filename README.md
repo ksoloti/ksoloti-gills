@@ -13,6 +13,7 @@ Human-readable BOM with notes and links is [here](https://github.com/ksoloti/kso
 ## This is just the Gills unit (and CV expander) and will not work without a Ksoloti Core plugged in.
 
 
+# Gills PCB
 `Gerbers`, `BOM` and `CPL` files for the PCB are in the subfolder [/jlcpcb/production_files](https://github.com/ksoloti/ksoloti-gills/tree/main/jlcpcb/production_files)
 
 
@@ -25,10 +26,35 @@ Human-readable BOM with notes and links is [here](https://github.com/ksoloti/kso
 <img width="1339" height="924" alt="Screenshot from 2025-11-19 20-59-08" src="https://github.com/user-attachments/assets/92e1559f-3d98-4b16-bc83-5d69f980c479" />
 
 
+# Gills Enclosure Panels
+
 `Gerbers` for the enclosure panels are in the subfolder [/ksoloti-gills_panel/jlcpcb/production_files](https://github.com/ksoloti/ksoloti-gills/tree/main/ksoloti-gills_panel/jlcpcb/production_files)
 Although the Kicad project includes all panels, there is one gerber zip per panel: top, bottom, left, right, front, rear. If you have made edits and want to update the Gerbers, you will need to create separate Gerbers by pasting each relevant single panel in a temporary PCBNew window and `File->Plot...` it from there. Or so.
 Note that there are two `ksoloti-gills-panel-top-*.zip`, one for black color, one for white. The silkscreens differ.
 
 
 <img width="1339" height="924" alt="Screenshot from 2025-11-20 00-12-38" src="https://github.com/user-attachments/assets/1e863ed5-a316-4094-b491-1ae7f59ee52c" />
+
+
+# Gills CV Expander PCB
+`Gerbers`, `BOM` and `CPL` files for the CV Expander PCB are in the subfolder [/ksoloti-gills-cv-expander/jlcpcb/production_files](https://github.com/ksoloti/ksoloti-gills/tree/main/jlcpcb/production_files)
+
+
+<img width="1339" height="924" alt="Screenshot from 2025-11-20 00-50-47" src="https://github.com/user-attachments/assets/7e28677d-ca2f-4cfb-b4af-6796a3f50972" />
+
+
+<img width="1339" height="924" alt="Screenshot from 2025-11-20 00-50-07" src="https://github.com/user-attachments/assets/e918e84c-f5ab-41ee-a325-333e412287f9" />
+
+
+<img width="1339" height="924" alt="Screenshot from 2025-11-20 00-50-03" src="https://github.com/user-attachments/assets/0897567a-753a-4a69-ad9b-590011e9a209" />
+
+
+
+
+
+
+
+
+
+
 
