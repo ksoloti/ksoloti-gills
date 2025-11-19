@@ -1,0 +1,117 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "51871915-f4ec-4df3-8b0b-0ab9e222ebae")
+	(paper "A4")
+	(title_block
+		(date "2024-11-08")
+		(rev "v0.3")
+	)
+	(lib_symbols)
+	(text "- Increase 7xL12 regulator caps to 22uf"
+		(exclude_from_sim no)
+		(at 24.13 36.83 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "11dde210-f628-4581-bfbe-6a0d36ad2589")
+	)
+	(text "v0.3 done, ordered 2023/10/23"
+		(exclude_from_sim no)
+		(at 17.78 30.48 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "22f56d0a-bb78-4700-b2a1-806588a6b54d")
+	)
+	(text "- Add -10V reference test point"
+		(exclude_from_sim no)
+		(at 24.13 62.23 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "4659f0f3-3197-4664-9702-217d74a5cf90")
+	)
+	(text "- Increase XL6007 output to 16.25V"
+		(exclude_from_sim no)
+		(at 24.13 43.18 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "4959da66-1916-42c2-9c0b-dcbe4112a23e")
+	)
+	(text "- Increase board dimensions"
+		(exclude_from_sim no)
+		(at 24.13 55.88 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "544b1110-1459-4e94-ab1b-a90e7a728f07")
+	)
+	(text "v0.2 done, ordered 2023/9/11"
+		(exclude_from_sim no)
+		(at 17.78 24.13 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "769bad9a-5ab5-40c9-b033-964be1a58b40")
+	)
+	(text "- Add two fiducials"
+		(exclude_from_sim no)
+		(at 24.13 68.58 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "a34a4706-c67e-4920-b5ec-46b2b4dea0af")
+	)
+	(text "- Adjust opamp resistors to more common values"
+		(exclude_from_sim no)
+		(at 24.13 49.53 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2987950-c0d8-4146-925c-f8f0ff7baa8b")
+	)
+	(text "v0.3 done, production, open source"
+		(exclude_from_sim no)
+		(at 17.78 74.93 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3243a57-e411-466b-974f-874158aaab0e")
+	)
+)
