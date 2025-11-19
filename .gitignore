@@ -11,6 +11,7 @@
 *-cache*
 *-bak
 *-bak*
+*.kicad_prl
 *~
 ~*
 _autosave-*
@@ -21,6 +22,8 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+ksoloti-gills-backups
+tags
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -29,9 +32,8 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
+# jlc
+jlcpcb/project.db
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
