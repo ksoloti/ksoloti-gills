@@ -7,6 +7,8 @@
 
 Schematics are [here](https://github.com/ksoloti/ksoloti-gills/blob/main/ksoloti-gills_v06.pdf)
 
+Human-readable BOM with notes and links is [here](https://github.com/ksoloti/ksoloti-gills/blob/main/ksoloti-gills_v06_bom.xlsx)
+
 
 ## This is just the Gills unit (and CV expander) and will not work without a Ksoloti Core plugged in.
 
