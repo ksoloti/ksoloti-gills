@@ -5,9 +5,6 @@
 # Kicad 9.0!
 
 
-Schematics are [here](https://github.com/ksoloti/ksoloti-gills/blob/main/ksoloti-gills_v06.pdf)
-
-Human-readable BOM with notes and links is [here](https://github.com/ksoloti/ksoloti-gills/blob/main/ksoloti-gills_v06_bom.xlsx)
 
 
 ## This is just the Gills unit (and CV expander) and will not work without a Ksoloti Core plugged in.
@@ -15,6 +12,11 @@ Human-readable BOM with notes and links is [here](https://github.com/ksoloti/kso
 
 # Gills PCB
 `Gerbers`, `BOM` and `CPL` files for the PCB are in the subfolder [/jlcpcb/production_files](https://github.com/ksoloti/ksoloti-gills/tree/main/jlcpcb/production_files)
+
+
+Schematics are [here](https://github.com/ksoloti/ksoloti-gills/blob/main/ksoloti-gills_v06.pdf)
+
+Human-readable BOM with notes and links is [here](https://github.com/ksoloti/ksoloti-gills/blob/main/ksoloti-gills_v06_bom.xlsx)
 
 
 <img width="1339" height="924" alt="Screenshot from 2025-11-19 20-59-49" src="https://github.com/user-attachments/assets/790dfa94-4545-4184-9765-ddea4511fd49" />
@@ -38,6 +40,11 @@ Note that there are two `ksoloti-gills-panel-top-*.zip`, one for black color, on
 
 # Gills CV Expander PCB
 `Gerbers`, `BOM` and `CPL` files for the CV Expander PCB are in the subfolder [/ksoloti-gills-cv-expander/jlcpcb/production_files](https://github.com/ksoloti/ksoloti-gills/tree/main/jlcpcb/production_files)
+
+
+CV Expander Schematics are [here](https://github.com/ksoloti/ksoloti-gills/blob/main/ksoloti-gills-cv-expander/ksoloti-gills-cv-expander_v03.pdf)
+
+BOM parts required for CV Expander are included in the main BOM (xlsx) above.
 
 
 <img width="1339" height="924" alt="Screenshot from 2025-11-20 00-50-47" src="https://github.com/user-attachments/assets/7e28677d-ca2f-4cfb-b4af-6796a3f50972" />
