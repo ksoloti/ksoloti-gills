@@ -23,6 +23,7 @@ fp-info-cache
 ~*.lck
 \#auto_saved_files#
 ksoloti-gills-backups
+ksoloti-gills_panel-backups
 tags
 
 # Netlist files (exported from Eeschema)
