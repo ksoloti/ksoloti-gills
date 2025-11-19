@@ -1,0 +1,432 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2b0e0e19-41f9-43cf-a08b-68c43152f80b")
+	(paper "A3")
+	(title_block
+		(title "https://github.com/ksoloti/ksoloti-gills")
+		(date "2025-11-19")
+		(rev "v0.6")
+	)
+	(lib_symbols)
+	(text "- Rework \"Ksoloti unified\" output insert header. Perhaps for a stereo filter daughterboard?"
+		(exclude_from_sim no)
+		(at 19.05 217.17 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "1044ec05-ddf7-40f3-87f1-4dbd1d5e2323")
+	)
+	(text "- Use NRJ6HF footprints for Line I/O Jacks instead of NRJ4HF."
+		(exclude_from_sim no)
+		(at 19.05 139.7 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "11280743-3904-41b9-b48a-395cda338375")
+	)
+	(text "- initial commit"
+		(exclude_from_sim no)
+		(at 19.05 25.4 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "11fa2fe9-6b46-4789-b20f-e6ccb8d8601c")
+	)
+	(text "v0.5 - Production"
+		(exclude_from_sim no)
+		(at 16.51 157.48 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "16d3d891-2480-4852-a3c6-d38f14f23997")
+	)
+	(text "v0.2 done"
+		(exclude_from_sim no)
+		(at 16.51 33.02 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "19166748-5afe-418c-9aca-8209e909b0e5")
+	)
+	(text "- Tweak case dimensions, thicker silkscreen for white case option."
+		(exclude_from_sim no)
+		(at 19.05 149.86 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "19e863d2-4c7a-4e4d-bc1e-2d91d51dc504")
+	)
+	(text "- Change OUT EXPANSION stereo 3.5mm jack to two mono jacks (so no adapter required), slimmer and more readily available PJ-320A footprint"
+		(exclude_from_sim no)
+		(at 19.05 38.1 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "3853d47b-0e18-4e1b-bb41-cc4b7ead43f5")
+	)
+	(text "- Add I2C EEPROM for easy preset memory handling (or other non-volatile data)."
+		(exclude_from_sim no)
+		(at 19.05 212.09 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "40c2b80d-7c01-4e6c-9596-bd01b8566c15")
+	)
+	(text "- Move encoder east by 2.5mm"
+		(exclude_from_sim no)
+		(at 19.05 78.74 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "455c2a1c-4b3d-44d2-afad-82d6b1642a46")
+	)
+	(text "- Move optional HP pot header north by 5mm."
+		(exclude_from_sim no)
+		(at 19.05 144.78 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a45fc7d-9151-4911-8230-7522d501cd2b")
+	)
+	(text "- Add footprint for Adafruit PDM mic and a mic hole in the panel."
+		(exclude_from_sim no)
+		(at 19.05 165.1 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "527b6c42-339a-487d-9710-98ef122d8426")
+	)
+	(text "- Add Gate Output TRS jack with 3.3V to 5V level shifting. Tip: PF6, ring: PF7."
+		(exclude_from_sim no)
+		(at 19.05 227.33 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5729d219-0cc3-44fb-a292-2007c4d2dafb")
+	)
+	(text "- Add GND jumper to MIDI configuration header"
+		(exclude_from_sim no)
+		(at 19.05 48.26 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e959722-7c56-4cae-9087-4ed2c2fdc2ce")
+	)
+	(text "- Remove additional I2C header (avoid I2C lines running across the board),\n   add generic power header."
+		(exclude_from_sim no)
+		(at 19.05 173.99 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "68302743-7d3a-44b8-b649-7acbd55e3b9c")
+	)
+	(text "- Increase vertical board dimension. Adjust pot, buttons, LED vertical spacing "
+		(exclude_from_sim no)
+		(at 19.05 116.84 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c310427-bae5-4f8c-b303-f72dd4335a22")
+	)
+	(text "- Move two mounting holes 2mm north"
+		(exclude_from_sim no)
+		(at 19.05 101.6 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f90d87a-6d47-449a-b32a-bc4d4ee221b7")
+	)
+	(text "- Fix swapped LED1 and LED2 labels (to conform with Axo tradition): LED1 green, LED2 red"
+		(exclude_from_sim no)
+		(at 19.05 63.5 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7253dfc4-3ddc-46c5-b65c-56b60a01155b")
+	)
+	(text "- Adjust DIN MIDI socket footprint"
+		(exclude_from_sim no)
+		(at 19.05 53.34 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "73a5785a-fa35-438c-b83a-9d090c8a2ccd")
+	)
+	(text "- Add footprint for optional 1000uF cap on the 5V rail (if you encounter Core reboot when (un)plugging DC)"
+		(exclude_from_sim no)
+		(at 19.05 83.82 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c7d9d64-cd20-45cd-a77c-e9f39b3af1b2")
+	)
+	(text "- Add socket for pins PF6-PF9."
+		(exclude_from_sim no)
+		(at 19.05 222.25 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d3ad7ca-f6b8-43c7-81bc-e8e1e79262f5")
+	)
+	(text "v0.6 - Open Source"
+		(exclude_from_sim no)
+		(at 16.51 200.66 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "99ccbc62-93ff-449d-af06-b8694a563c06")
+	)
+	(text "- Edit \"output insert\" header to now include SGND pin."
+		(exclude_from_sim no)
+		(at 19.05 193.04 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "b09d5993-2912-4d66-8ce5-8dd221f35f57")
+	)
+	(text "- Simplified audio signal path, doing away with the opamp buffers.\n   Confine audio path to the 6-pin line in/out header coming from the Core."
+		(exclude_from_sim no)
+		(at 19.05 187.96 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1c97af3-5f25-423a-91a6-a9ca6a07bfec")
+	)
+	(text "- Increase LED resistors to 1k (green), 680R (red)"
+		(exclude_from_sim no)
+		(at 19.05 73.66 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc844f4b-4249-4a38-8ac3-279f0fdcd020")
+	)
+	(text "- Swap colors on LED3 and LED4 (to conform with LED1 and LED2. Now the \"color 1\" of each dual-color LED is green/blue and \"color2\" is red)"
+		(exclude_from_sim no)
+		(at 19.05 68.58 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "be506636-12ed-4336-8ed9-5e4da301d34b")
+	)
+	(text "- Improve DC power filtering, power and ground \"entering\" and \"leaving\" Core at only one location."
+		(exclude_from_sim no)
+		(at 19.05 179.07 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1319cb7-78f3-4744-ab34-6cd4f1ebadb7")
+	)
+	(text "v0.4 done"
+		(exclude_from_sim no)
+		(at 16.51 129.54 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2ccee77-4e4f-4b3c-9ff3-44020031f274")
+	)
+	(text "v0.1 done"
+		(exclude_from_sim no)
+		(at 16.51 19.05 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c787a06b-1fc1-40b0-9323-d7c71fad2ac6")
+	)
+	(text "- Add SUM_IN_* pads for summing audio input signals. External cap and resistor required!"
+		(exclude_from_sim no)
+		(at 19.05 106.68 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "c936471f-04c7-43cd-8d1f-179e3397a6ab")
+	)
+	(text "- Adjust gain of U7 (optional radio module amp)"
+		(exclude_from_sim no)
+		(at 19.05 121.92 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0941110-1e9c-4285-bf50-f9104f418dce")
+	)
+	(text "v0.3 done"
+		(exclude_from_sim no)
+		(at 16.51 96.52 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1984411-2aeb-4433-8b7d-c9d0c8c8284e")
+	)
+	(text "- Bottom panel: additional M3 screw holes for more stability"
+		(exclude_from_sim no)
+		(at 19.05 58.42 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5373d5d-953e-4457-a4fe-91458d05a8d5")
+	)
+	(text "- Add 3.3V to CV expansion header (if external pots etc. are to be connected)"
+		(exclude_from_sim no)
+		(at 19.05 43.18 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc59076a-fd54-47a1-b992-664d86f579ea")
+	)
+	(text "- Add OUTPUT_INSERT header. Can be set up as a send-receive before the output volume pot."
+		(exclude_from_sim no)
+		(at 19.05 111.76 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6083269-76c0-410e-8647-78d8bae39a4c")
+	)
+	(text "- Reroute some traces that were at risk of touching potentiometer chassis."
+		(exclude_from_sim no)
+		(at 19.05 134.62 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "e656934d-326e-4b5c-aa2e-4e444bbfcf70")
+	)
+	(text "- Use 0805 resistors for LEDs and place in accessible spot"
+		(exclude_from_sim no)
+		(at 19.05 88.9 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9af109c-1d5e-4358-995e-5c282807d81a")
+	)
+	(text "- Add RC low pass filters to encoder AB pins and switch."
+		(exclude_from_sim no)
+		(at 19.05 207.01 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcb0bdb9-3b78-4d7b-970b-f7bbb07de893")
+	)
+)
