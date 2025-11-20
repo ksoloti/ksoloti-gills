@@ -56,8 +56,16 @@ BOM parts required for CV Expander are included in the main BOM (xlsx) above.
 <img width="1339" height="924" alt="Screenshot from 2025-11-20 00-50-03" src="https://github.com/user-attachments/assets/0897567a-753a-4a69-ad9b-590011e9a209" />
 
 
+## About Licensing and Sharing 
 
+This hardware design is shared under the "Creative Commons Attribution 4.0 International Public License" (CC BY 4.0).
+This means you can use this design for almost anything, including commercial projects. You are totally free to reproduce, share, and modify it.
 
+Because this is a physical hardware project, we ask for two small favours to keep the attribution clear:
+- Keep the attribution text "CC BY 4.0 Ksoloti" on the silkscreen layer.
+- If you make any significant edits and share your modified version, please note what modifications you've made. Do add something like "edit by <yourname>" if you like!
+
+The full, official legal text is available in the `LICENSE` file in this repository. Happy hacking!
 
 
 
