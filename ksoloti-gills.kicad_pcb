@@ -71148,6 +71148,18 @@
 			)
 		)
 	)
+	(gr_text "CC BY 4.0 Ksoloti"
+		(at 69.8952 118.017 90)
+		(layer "F.SilkS")
+		(uuid "12240b18-9beb-4aa7-9553-f64e9f183bd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "GND"
 		(at 199.5672 106.175 0)
 		(layer "F.SilkS")
@@ -71640,6 +71652,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "CC BY 4.0 Ksoloti"
+		(at 69.8952 118.017 270)
+		(layer "B.SilkS")
+		(uuid "4c4fbf75-8421-4ae3-980b-95c1d3a95e42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify mirror)
 		)
